@@ -1,10 +1,13 @@
+@import "variables";
+
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-    background-color: #efe4e0e0;
+    background-color: $color-base;
     overflow-x: hidden;
 }
 
@@ -16,20 +19,20 @@ header{
 }
 
 .banner{
-    color:#49403a;
+    color: $color-letra-principal;
     text-align: center;
 }
 
 .publicidad{
     background-color: #cfced099;
-    color: #4F453F;
-    font-family: "Montserrat";
+    color: $color-letra-principal;
+    font-family: $fuente-principal;
     text-align: center;
 }
 
 h2{
-    color: #4F453F;
-    font-family: "Montserrat";
+    color: $color-letra-principal;
+    font-family: $fuente-principal;
     text-align: center;
 }
 
@@ -49,14 +52,14 @@ h2{
 }
 
 .menu a {
-    color: #4F453F;
+    color: $color-letra-principal;
     text-decoration: none;
     border: 2px solid white;
     padding: 5px 15px;
-    border-color: #EBD8D0;
-    background-color: #EBD8D0;
+    border-color: $color-boton-menu;
+    background-color: $color-boton-menu;
     border-radius: 7%;
-    font-family: "Montserrat";
+    font-family: $fuente-principal;
     opacity: 0.6;
 }
 
@@ -131,15 +134,15 @@ a:hover{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    font-family: "Montserrat";
-    color: #4F453F;
+    font-family: $fuente-principal;
+    color: $color-letra-principal;
     gap: 35px;
 }
 
 .redes {
     text-align: center;
     align-items: center;
-    font-family: "Montserrat";
+    font-family: $fuente-principal;
     padding-top: 7.5%;
     padding-bottom: 2.5%;
 }
@@ -231,8 +234,8 @@ a:hover{
 }
 
 .Novedades {
-    color: #4F453F;
-    font-family: "Montserrat";
+    color: $color-letra-principal;
+    font-family: $fuente-principal;
     margin-top: 5%;
     text-align: center;
 }
@@ -248,8 +251,8 @@ a:hover{
 
 .contacto{
     margin-left: 15%;
-    color: #4F453F;
-    font-family: "Montserrat";
+    color: $color-letra-principal;
+    font-family: $fuente-principal;
     margin-top: 8%;
 }
 
@@ -271,6 +274,7 @@ iframe{
 form.datos{
     border-radius:10px;
     margin: 16%;
+    font-family: $fuente-principal;
 }
 
 form label{
@@ -291,8 +295,8 @@ input[type="submit" i]{
     margin-top: 10%;
     padding: 10px 25px;
     color: white;
-    background-color: #4F453F;
-    font-family: "Montserrat";
+    background-color: $color-letra-principal;
+    font-family: $fuente-principal;
     border-radius: 5%;
 }
 
@@ -300,12 +304,12 @@ input[type="submit" i]{
     display: inline-flex;
     justify-content: space-evenly;
     text-align: center;
-    font-family: "Montserrat";
+    font-family: $fuente-principal;
 }
 
 .compras h1{
     text-align: center;
-    font-family: "Montserrat";
+    font-family: $fuente-principal;
 }
 
 .compras img{
@@ -316,6 +320,6 @@ input[type="submit" i]{
 
 .textoComoComprar {
     padding-top: 5%;
-    font-family: "Montserrat";
+    font-family: $fuente-principal;
     text-align: center;
 }

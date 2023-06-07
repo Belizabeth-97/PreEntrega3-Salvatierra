@@ -1,3 +1,5 @@
+/* PALETA DE COLORES (FONDO, LETRAS) */
+/* ESTILO DE FUENTE PRINCIPAL */
 * {
   margin: 0;
   padding: 0;
@@ -22,13 +24,13 @@ header {
 
 .publicidad {
   background-color: rgba(207, 206, 208, 0.6);
-  color: #4F453F;
+  color: #49403a;
   font-family: "Montserrat";
   text-align: center;
 }
 
 h2 {
-  color: #4F453F;
+  color: #49403a;
   font-family: "Montserrat";
   text-align: center;
 }
@@ -49,7 +51,7 @@ h2 {
 }
 
 .menu a {
-  color: #4F453F;
+  color: #49403a;
   text-decoration: none;
   border: 2px solid white;
   padding: 5px 15px;
@@ -129,7 +131,7 @@ a:hover {
   text-align: center;
   align-items: center;
   font-family: "Montserrat";
-  color: #4F453F;
+  color: #49403a;
   gap: 35px;
 }
 
@@ -214,7 +216,7 @@ a:hover {
 }
 
 .Novedades {
-  color: #4F453F;
+  color: #49403a;
   font-family: "Montserrat";
   margin-top: 5%;
   text-align: center;
@@ -231,7 +233,7 @@ a:hover {
 
 .contacto {
   margin-left: 15%;
-  color: #4F453F;
+  color: #49403a;
   font-family: "Montserrat";
   margin-top: 8%;
 }
@@ -254,6 +256,7 @@ iframe {
 form.datos {
   border-radius: 10px;
   margin: 16%;
+  font-family: "Montserrat";
 }
 
 form label {
@@ -274,7 +277,7 @@ input[type=submit i] {
   margin-top: 10%;
   padding: 10px 25px;
   color: white;
-  background-color: #4F453F;
+  background-color: #49403a;
   font-family: "Montserrat";
   border-radius: 5%;
 }
