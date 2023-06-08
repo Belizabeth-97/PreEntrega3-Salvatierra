@@ -176,6 +176,10 @@ a:hover {
     height: 20%;
     row-gap: 50%;
   }
+  .compras {
+    display: inline-flex;
+    justify-content: space-between;
+  }
   #grilla {
     display: grid;
     grid-template-areas: "accesoCuotas accesoAccesorios" "accesoCuotas accesoProducto";
@@ -272,19 +276,7 @@ input[type=text], input[type=tel], input[type=email] {
   border-radius: 5%;
 }
 
-input[type=submit i] {
-  border: 25px;
-  margin-top: 10%;
-  padding: 10px 25px;
-  color: white;
-  background-color: #49403a;
-  font-family: "Montserrat";
-  border-radius: 5%;
-}
-
 .compras {
-  display: inline-flex;
-  justify-content: space-evenly;
   text-align: center;
   font-family: "Montserrat";
 }
@@ -297,7 +289,17 @@ input[type=submit i] {
 .compras img {
   width: 60%;
   height: 69%;
-  top: 80%;
+  margin: 25px;
+}
+
+input[type=submit i] {
+  border: 25px;
+  margin-top: 10%;
+  padding: 10px 25px;
+  color: white;
+  background-color: #49403a;
+  font-family: "Montserrat";
+  border-radius: 5%;
 }
 
 .textoComoComprar {
