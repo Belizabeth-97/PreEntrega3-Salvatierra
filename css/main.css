@@ -60,10 +60,14 @@ h2 {
   border-radius: 7%;
   font-family: "Montserrat";
   opacity: 0.6;
+  transition: all 0.5s;
 }
 
-a:hover {
+.menu li a:hover {
   opacity: 1;
+  background-color: rgba(117, 107, 100, 0.8156862745);
+  border: rgba(117, 107, 100, 0.8156862745);
+  color: white;
 }
 
 .bolsa {
@@ -300,6 +304,12 @@ input[type=submit i] {
   background-color: #49403a;
   font-family: "Montserrat";
   border-radius: 5%;
+  transition: 0.3s;
+}
+
+input[type=submit i]:hover {
+  background-color: white;
+  color: #49403a;
 }
 
 .textoComoComprar {
