@@ -60,7 +60,6 @@ h2 {
   border-radius: 7%;
   font-family: "Montserrat";
   opacity: 0.6;
-  transition: all 0.5s;
 }
 
 .menu li a:hover {
@@ -155,6 +154,10 @@ h2 {
   width: 50px;
   padding-top: 2%;
   margin: 0 15px;
+}
+
+.redes a img:hover {
+  transform: scale(1.2);
 }
 
 @media (min-width: 768px) {
