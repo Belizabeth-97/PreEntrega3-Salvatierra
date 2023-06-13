@@ -63,8 +63,11 @@ h2{
     opacity: 0.6;
 }
 
-a:hover{
+.menu li a:hover{
     opacity: 1.0;
+    background-color: #756b64d0;
+    border:  #756b64d0;
+    color: white;
 }
 
 .bolsa{
@@ -155,6 +158,10 @@ a:hover{
     width: 50px;
     padding-top: 2%;
     margin: 0 15px;
+}
+
+.redes a img:hover {
+    transform: scale(1.2);
 }
 
 @media (min-width: 768px){
@@ -296,7 +303,6 @@ input[type=text], input[type=tel], input[type=email]{
    border-radius: 5%;
 }
 
-
 .compras {
     text-align: center;
     font-family: $fuente-principal;
@@ -321,6 +327,12 @@ input[type="submit" i]{
     background-color: $color-letra-principal;
     font-family: $fuente-principal;
     border-radius: 5%;
+    transition: .3s;
+}
+
+input[type="submit" i]:hover {
+    background-color: white;
+    color: #49403a;
 }
 
 .textoComoComprar {
