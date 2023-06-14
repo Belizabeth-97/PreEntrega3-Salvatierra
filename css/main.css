@@ -60,6 +60,7 @@ h2 {
   border-radius: 7%;
   font-family: "Montserrat";
   opacity: 0.6;
+  transition: all 0.5s;
 }
 
 .menu li a:hover {

@@ -61,6 +61,7 @@ h2{
     border-radius: 7%;
     font-family: $fuente-principal;
     opacity: 0.6;
+    transition: all .5s;
 }
 
 .menu li a:hover{
