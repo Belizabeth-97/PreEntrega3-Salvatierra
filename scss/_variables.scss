@@ -5,3 +5,9 @@ $color-boton-menu: #EBD8D0;
 
 /* ESTILO DE FUENTE PRINCIPAL */
 $fuente-principal: "Montserrat";
+
+ @mixin ajuste($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ 
