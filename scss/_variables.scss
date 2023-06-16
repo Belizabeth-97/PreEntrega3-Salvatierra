@@ -6,6 +6,7 @@ $color-boton-menu: #EBD8D0;
 /* ESTILO DE FUENTE PRINCIPAL */
 $fuente-principal: "Montserrat";
 
+/* MIXIN PARA CAMBIAR TAMAÑO */
  @mixin ajuste($width, $height) {
     height: $height;
     width: $width;

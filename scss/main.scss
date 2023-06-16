@@ -18,6 +18,7 @@ header{
     text-decoration: none;
 }
 
+/* PUBLICIDAD DE CUOTAS SIN INTERÉS*/
 .banner{
     color: $color-letra-principal;
     text-align: center;
@@ -87,6 +88,7 @@ h2{
     top: 10px;
 }
 
+/* GRILLA GRID DE ACCESO A PAGINAS*/
 #grilla{
     display: grid;
     grid-template-areas:
@@ -131,6 +133,7 @@ h2{
     object-fit: cover;
 }
 
+/* INFO DE ENVIOS-MEDIOS DE PAGO- DEVOLUCIONES */
 .adicionales {
     display: flex;
     flex-direction: column;
@@ -141,6 +144,7 @@ h2{
     gap: 35px;
 }
 
+/* ACCESO A REDES SOCIALES */
 .redes {
     text-align: center;
     align-items: center;
@@ -163,6 +167,7 @@ h2{
     transform: scale(1.2);
 }
 
+/* MEDIA QUERIES ADAPTACION DESKTOP */
 @media (min-width: 768px){
     .header {
         display: flex;
@@ -236,6 +241,7 @@ h2{
 
 }
 
+/* FORMULARIO DE CONTACTO */
 #grilla-contacto{
     display: grid;
     grid-template-areas:
@@ -244,6 +250,7 @@ h2{
     grid-template-rows: 70% 50%; 
 }
 
+/* SUSCRIPCION DE NOVEDADES VIA MAIL */
 .Novedades {
     color: $color-letra-principal;
     font-family: $fuente-principal;
@@ -276,6 +283,7 @@ h2{
     margin-top: 3%;
 }
 
+/* MAPA DEL LUGAR */
 iframe{
     @include ajuste(80%, 75%);
     margin: 12%;
@@ -300,6 +308,7 @@ input[type=text], input[type=tel], input[type=email]{
    border-radius: 5%;
 }
 
+/* ARTICULOS DE COMPRA A LA VENTA */
 .compras {
     text-align: center;
     font-family: $fuente-principal;
@@ -332,6 +341,7 @@ input[type="submit" i]:hover {
     color: #49403a;
 }
 
+/* INFORMECION COMO COMPRAR */
 .textoComoComprar {
     padding-top: 5%;
     font-family: $fuente-principal;
